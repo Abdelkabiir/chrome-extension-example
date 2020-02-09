@@ -1,0 +1,19 @@
+{
+    "name": "Youtube Highlight",
+    "version": "1.0",
+    "description": "Youtube extension to highlight something xD",
+    "manifest_version": 2,
+    "icons": {
+      "16": "assets/16.png",
+      "48": "assets/32.png",
+     "128": "assets/64.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "https://www.youtube.com/"
+        ],
+        "js": ["src/index.js"]
+      }
+    ]
+  }
